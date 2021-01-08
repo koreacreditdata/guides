@@ -1,0 +1,32 @@
+[user]
+	name = <YOUR_NAME>
+	email = <YOUR_EMAIL>
+[core]
+	verbose = true
+	editor = vim
+	quotepath = false
+	precomposeunicode = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[credential]
+	helper = store
+[push]
+  default = current
+[rebase]
+  autosquash = true
+  autostash = true
+[merge]
+  ff = only
+[color]
+  ui = auto
+[http]
+  postBuffer = 524288000
+[pull]
+  rebase = true
+[i18n]
+  commitEncoding = utf-8
+  logOutputEncoding = utf-8
