@@ -10,7 +10,7 @@ if ! [ -n `which nvm` ]
 then
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
   source ~/.nvm/nvm.sh
-  nvm install 10.18.1
+  nvm install node
 fi
 
 brew bundle --file=../public/init.Brewfile
