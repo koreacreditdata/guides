@@ -1,0 +1,26 @@
+[user]
+  name = <YOUR_NAME>
+  email = <YOUR_EMAIL>
+[core]
+  verbose = true
+  editor = vim
+  quotepath = false
+  precomposeunicode = true
+[credential]
+  helper = store
+[push]
+  default = current
+[rebase]
+  autosquash = true
+  autostash = true
+[merge]
+  ff = only
+[color]
+  ui = auto
+[http "https://git-codecommit.ap-northeast-2.amazonaws.com"]
+  proxy = http://internal-proxy.kcd.systems:3128
+[pull]
+  rebase = true
+[i18n]
+  commitEncoding = utf-8
+  logOutputEncoding = utf-8
