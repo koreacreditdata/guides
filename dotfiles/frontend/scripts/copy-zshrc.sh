@@ -11,13 +11,13 @@ function get_username() {
 }
 
 function copy_zshrc() {
-  filename="./dist/.zshrc"
+  filename="/tmp/kcd-init/.zshrc"
 
   pwd=`pwd`
   username=$(get_username $pwd)
   sed -i "" -e "s/<YOUR_NAME>/$username/" $filename
 
-  cp $filename .
+  cp $filename ~/.zshrc
 }
 
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-filename="./dist/.vimrc"
+filename="/tmp/kcd-init/.vimrc"
 
 
 cp $filename ~/.vimrc
