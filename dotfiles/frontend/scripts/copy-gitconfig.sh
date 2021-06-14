@@ -6,7 +6,7 @@ function get_name() {
 
 read -p "[Input] Enter your email: " email
 
-filename="./dist/.gitconfig"
+filename="/tmp/kcd-init/.gitconfig"
 name=$(get_name $email)
 
 if [[ $email != "" ]]; then

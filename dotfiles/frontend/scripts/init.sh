@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -r ./public/ dist
+cp -r ./public/ /tmp/kcd-init

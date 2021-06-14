@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-read -n 1 -r -p "Do you want to copy .gitconfig file [Y/n]:" need_gitconfig
-read -n 1 -r -p "Do you want to copy .vimrc file [Y/n]:" need_vimconfig
-read -n 1 -r -p "Do you want to copy .zshrc file [Y/n]:" need_zshrc
+read -n 1 -r -p "Do you want to copy .gitconfig file [Y/n]: " need_gitconfig && echo
+read -n 1 -r -p "Do you want to copy .vimrc file [Y/n]: " need_vimconfig && echo
+read -n 1 -r -p "Do you want to copy .zshrc file [Y/n]: " need_zshrc && echo
 
 ./scripts/init.sh
 

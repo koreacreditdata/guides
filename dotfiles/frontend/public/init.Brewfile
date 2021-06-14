@@ -10,8 +10,6 @@ brew "git"
 brew "gnupg"
 brew "hub"
 brew "libyaml"
-brew "postgresql", restart_service: true
-brew "redis", restart_service: true
 brew "yarn"
 brew "z"
 brew "zlib"
